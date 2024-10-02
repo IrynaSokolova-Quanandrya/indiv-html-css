@@ -1,16 +1,17 @@
-.button{
-    border-radius: 4px;
-    border: 1px solid #01996D;
-    background: #01996D;
-    color: #fff;
+:root{
+    --title-color: #01996D;
+    --secondary-title-color: #000;
+    --main-background-color:#FFF; 
+    --secondary-background-color:#245852;
+    --text-color:#424242;
 }
 
-.button:hover,
-.button:focus{
-    background: tomato;
-    border: 1px solid tomato;
+body{
+    color: var(--text-color);
+    background-color: var(--main-background-color);
 }
 
-a:visited{
-    color: #01996D;
+.section.kayla{
+    background-color: var(--secondary-background-color);
+    color: var(--main-background-color);
 }
