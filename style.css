@@ -6,12 +6,51 @@
     --text-color:#424242;
 }
 
+/* Загальні стилі сайту */
+
 body{
     color: var(--text-color);
     background-color: var(--main-background-color);
 }
 
-.section.kayla{
+ul,
+a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.title{
+    color: var(--title-color);
+}
+
+/* Шапка сайту */
+/* Основний контент */
+/* Секція герой */
+/* How it works */
+/* Секція kayla */
+.kayla.section{
     background-color: var(--secondary-background-color);
     color: var(--main-background-color);
 }
+
+.kayla .title{
+    color: var(--main-background-color);
+}
+
+/* Футер */
+footer{
+    color: var(--main-background-color);
+    background-color: var(--secondary-background-color);
+}
+
+footer a{
+    color: var(--main-background-color);
+}
+
+
+
+
+
+
+
+
