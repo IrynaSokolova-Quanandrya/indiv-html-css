@@ -1,0 +1,83 @@
+:root{
+    --title-color: #01996D;
+    --secondary-title-color: #000;
+    --main-background-color:#FFF; 
+    --secondary-background-color:#245852;
+    --text-color:#424242;
+}
+
+
+
+/* Main style site */
+body{
+    color: var(--text-color);
+    background-color: var(--main-background-color);
+}
+.title{
+    color: var(--title-color);
+}
+.button{
+    background-color: var(--title-color);
+    color: var(--main-background-color);
+    border: none;
+}
+.button:hover,.button:focus{
+    background-color: var(--main-background-color);
+    color: var(--title-color);
+}
+ul,a{
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Header */
+.logo{
+    color: var(--title-color);
+}
+
+/* Navigation */
+.link{
+    color: var(--secondary-title-color);
+}
+.link:hover,.link:focus{
+    color: var(--title-color);
+}
+
+/* Autofication */
+.auth-button{
+    background-color: transparent;
+    border: transparent;
+    color: var(--secondary-title-color);
+}
+.auth-button:hover,.auth-button:focus{
+    background-color: var(--secondary-title-color);
+    color: var(--main-background-color);
+}
+
+/* Main content */
+/* Hero section */
+.hero-title{
+    color: var(--title-color);
+}
+
+/* How it works section*/
+.kayla.section{
+    background-color: var(--secondary-background-color);
+    color: var(--main-background-color);
+}
+
+.kayla .title{
+    color: var(--main-background-color);
+}
+
+.steps-title{
+    color: var(--secondary-title-color);
+}
+
+footer a{
+    color: var(--main-background-color);
+}
+
+footer{
+    background-color: var(--secondary-background-color);
+}
