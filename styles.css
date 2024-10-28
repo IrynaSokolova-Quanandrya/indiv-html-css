@@ -1,0 +1,31 @@
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+p{
+    margin: 0;
+}
+.text{
+    box-sizing: border-box;
+    width: 450px;
+    border: 2px solid red;
+    padding: 15px;
+
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
+    /* margin: 20px; */
+
+    padding-bottom: 20px;
+}
+
+.text-1{
+     border: 2px solid red;
+
+}
