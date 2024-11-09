@@ -6,6 +6,11 @@
     --text-color:#424242;
 }
 
+.container{
+    width: 1400px;
+    
+}
+
 .logo span{
     color: red;
 }
