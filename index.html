@@ -7,14 +7,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Шапка сайту -->
-    <header class="header">
-       <div class="container">
-         <a class="logo" href=""><span>Ali</span>vio</a>
-        <!-- Навігація сайту -->
+    <!-- Header -->
+    <header  class="header">
+        <div class="container">
+        <a class="logo">Alivio</a>
+        <!-- Navigation -->
         <nav class="nav">
             <ul class="list">
                 <li class="item">
@@ -29,89 +30,94 @@
                 <li class="item">
                     <a class="link" href="">Pricing</a>
                 </li>
-            </ul>
-       </nav>
-       <!-- Аутентифікація -->
+            </ul> 
+        </nav>
+        <!-- Autofication -->
             <ul class="auth-list">
                 <li class="auth-item">
-                    <button class="auth-button" disabled type="button">Sign in</button>
+                    <button class="auth-button" type="button">Sign in</button>
                 </li>
                 <li class="auth-item">
                     <button class="button" type="button">Start Trial</button>
                 </li>
             </ul>
-       
-       </div>
+        </div>
     </header>
-    <!-- Основний контент -->
+        <!-- Main content -->
     <main>
-        <!-- Секція герой -->
+        <!-- Hero section -->
         <section class="section hero">
+        <div class="container">
             <h1 class="hero-title">Be aware, Manage well.</h1>
-            <p class="text">Everyone experiences stress in different ways.
-                Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+            <p class="text">Everyone experiences stress in different ways.Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
             <button class="button" type="button">Find Your Way</button>
+        </div>
         </section>
-        <!-- Секція  How it works-->
+        <!-- How it works section -->
         <section class="section">
-            <h2 class="section-title">How it works</h2>
-            <h3 class="title">Understand & Release the stress in 3 steps</h3>
-            <p class="how-it-work-text">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
+        <div class="container">
+            <h4 class="section-title">How it works</h4>
+            <h2 class="title">Understand & Release the stress in 3 steps</h2>
+            <p class="how-it-works-text">Alivio offers as many journals it takes, tackling different areas such as anxiety, overwhelmedness, sadness, or anger, and a variety of personal causes, to help you become aware of your emotions, and guide you in how to manage stress.</p>
             <ul class="steps-list">
                 <li class="steps-item">
                     <h4 class="steps-title">Personalize</h4>
                     <p class="steps-text">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
-                    <img class="steps-image" src="./images/how-it-works-1.jpg" alt="picture">
+                    <img class="steps-img" src="./Img/Chromebook.png" width="300" alt="PICTURE">
                 </li>
                 <li class="steps-item">
                     <h4 class="steps-title">Write & Understand</h4>
                     <p class="steps-text">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
-                    <img class="steps-image" src="./images/how-it-works-2.jpg" alt="daybook">
+                    <img class="steps-img" src="./Img/Note.png" width="300" alt="DAYBOOK">
                 </li>
                 <li class="steps-item">
                     <h4 class="steps-title">Alivio!</h4>
                     <p class="steps-text">Now you are aware, and have a way to manage and overcome your own stress. What are you waiting for? Alivio today!</p>
-                    <img class="steps-image" src="./images/how-it-works-3.jpg" alt="woman">
+                    <img class="steps-img" src="./Img/Girl.png" width="300" alt="WOMAN">
                 </li>
             </ul>
+        </div>
         </section>
-        <!-- Секція kayla -->
-        <section class="section kayla">
-            <h2>Examples</h2>
-            <h3>Let's hear about Kayla's success story</h3>
-            <p>See how well Alivio works in a real customer’s life. </p>
-            <button type="button">Let’s get started</button>
-            <video src="https://www.youtube.com/watch?v=T78-xD8uM58" poster="./images/video-poster.jpg" controls autoplay></video>
+        <!-- Kayla section -->
+        <section class="kayla section">
+        <div class="container">
+            <h2 class="title">Let's hear about Kayla's success story</h2>
+            <p class="kayla-text">See how well Alivio works in a real customer’s life.</p>
+            <button class="button" type="button">Let’s get started</button>
+            <video  width="600" src="https://www.youtube.com/watch?v=T78-xD8uM58" poster="video-poster.jpg" controls autoplay></video>
+        </div>
         </section>
         <section class="section">
-            <h2>Our product</h2>
-            <h3>You tell us your stress, We make your diary</h3>
+        <div class="container">
+            <p>Our product</p>
+            <h2 style=color:#01996D;">You tell us your stress, We make your diary</h2>
             <p>Everyone experiences it, and in different ways.
-Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-            <button type="button" class="button">Find Your Way</button>
-            <img src="./images/our-product.jpg" alt="girl">
+                Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
+            <button class="button">Find Your Way</button>
+            <img class="background" src="./Img/Woman.png" width="300"  alt="GIRL">
+        </div>
         </section>
     </main>
-    <!-- Футер сайту -->
-    <footer>
-       <div class="container">
-         <a href="">Alivio</a>
-            <ul>
-                <li>
-                    <a href="">Why Alivio</a>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+        <a href="">Alivio </a>
+            <ul class="list">
+                <li class="item">
+                    <a class="link" href="">Why Alivio</a>
                 </li>
-                <li>
-                    <a href="">Solutions</a>
+                <li class="item">
+                    <a class="link" href="">Solutions</a>
                 </li>
-                <li>
-                    <a href="">Community</a>
+                <li class="item">
+                    <a class="link" href="">Community</a>
                 </li>
-                <li>
-                    <a href="">Pricing</a>
+                <li class="item">
+                    <a class="link" href="">Pricing</a>
                 </li>
-            </ul> 
-       </div>
+            </ul>  
+        </div>
     </footer>
-    <script type="module" src="./index.js"></script>
 </body>
+</html>
 </html>
