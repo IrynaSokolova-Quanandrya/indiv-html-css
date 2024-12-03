@@ -1,21 +1,28 @@
-# indiv-html-css
+QnA
 
-FONTS
+Перевірка знань
 
-1 - Підключення сторонніх шрифтів
-2 - google fonts
-3 - властивість font-family, font-size, font-style
-    - font-weight: bold|bolder|lighter|normal|100|200|300|400|500|600|700|800|900
-    - font-size: px, em, rem, %
-    - font-style: normal | italic | oblique | initial | inherit
-     
-4 - Оформлення тексту
-    - text-transform: none/capitalize/uppercase/lowercase/inherit/initial;
-    - text-indent: 20px/15%/inherit
-    -  text-decoration: none | underline | line-through | overline
-    -  text-align: left | right | center | justify
-    - text-shadow​
+Типи та формати зображень
 
-5 - Псевдоелементи тексту
-    - ::first-letter​
-    - ::selection
+Інструмент для оптимізації зображень
+
+Фон
+
+Багатошаровий фон
+
+Псевдоелементи:
+
+::after – використовується разом із властивістю content та дозволяє вивести
+необхідні дані після місту елементу; ::before – виконує схожу функцію, що й
+попередній, але виводить дані попереду вмісту елементу; ::selection – цей
+псевдоелемент розпізнається браузерами тільки при використанні двох двокрапок та
+дозволяє встановити колір і фон для тексту, що виділений користувачем;
+::first-letter – використовується для заміни стилю першого символу в тексті
+елементу; ::first-line – використовується для заміни стилю першого рядка в
+тексті елементу. практика
+
+Одиниці вимірювання в CSS (px, %, em, rem)
+
+практика
+
+резюме
