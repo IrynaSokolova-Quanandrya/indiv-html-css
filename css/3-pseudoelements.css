@@ -18,7 +18,7 @@
     color: red;
   }
   
-  .button::before {
+  /* .button::before {
     content: "";
     width: 20px;
     height: 20px;
@@ -26,15 +26,15 @@
     margin-right: 10px;
     background-image: url("../img/icons/rocket-icon.png");
     background-size: contain;
-  }
+  } */
   
-  .title::before{
+  /* .title::before{
     display: inline-flex;
     content: '';
     width: 20px;
     height: 20px;
     background-color: green;
-  }
+  } */
   /* LIST */
   
   .list {
@@ -53,7 +53,7 @@
       0px 1px 3px rgba(0, 0, 0, 0.12); 
   }
   
-  .list-item::before {
+  /* .list-item::before {
     display: block;
     content: "";
     height: 120px;
@@ -64,16 +64,16 @@
   }
   
   .icon-delivery::before {
-    background-image: url("../images/cat.png");
+    background-image: url("../img/icons/delivery-icon.png");
   }
   
   .icon-mobile::before {
-    background-image: url("../images/mobile-icon.svg");
+    background-image: url("../img/icons/rocket-icon.png");
   }
   
   .icon-code::before {
-    background-image: url("../images/code-icon.svg");
-  }
+    background-image: url("../img/icons/fish.jpg");
+  } */
   
   .list-item > .title {
     margin-top: 0;
@@ -84,11 +84,11 @@
     margin-bottom: 0;
   }
   
-  .link {
+  /* .link {
     display: inline-block;
     height: 50px;
     width: 50px;
-    background-image: url("../images/cat.png");
+    background-image: url("../img/cat.png");
     background-color: red;
     background-size: 20px;
     background-repeat: no-repeat;
@@ -98,4 +98,4 @@
   
   .link:hover {
     background-color: teal;
-  }
+  } */
