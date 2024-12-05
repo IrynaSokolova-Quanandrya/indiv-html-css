@@ -11,6 +11,14 @@
     text-decoration: none;
     cursor: pointer; 
   }
+
+  .button::before{
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-color: tomato;
+    margin-right: 5px;
+  }
   
   .button:hover,
   .button:focus {
@@ -24,7 +32,7 @@
     height: 20px;
     outline: 1px solid;
     margin-right: 10px;
-    background-image: url("../img/icons/rocket-icon.png");
+    background-image: url("../img/icons/rocket-icon.png") url("../img/icons/rocket-icon.png") ;
     background-size: contain;
   } */
   
