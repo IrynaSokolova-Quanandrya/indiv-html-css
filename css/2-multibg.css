@@ -6,12 +6,8 @@
     margin-left: auto;
     margin-right: auto;
     outline: 1px solid black;
-    
-    background-image: 
-                  linear-gradient(
-                      to right, rgba(255, 0, 0, 0.5) 10%, rgba(0, 0, 255, 0.5)30%, rgba(0, 255, 0, 0.5)
-                    ),
-                    url('../img/icons/fish.jpg');
+    background: linear-gradient(113deg, #FFF 18.15%, rgba(255, 255, 255, 0.00) 53.07%), rgba(0, 0, 0, 0.10), url(../img/icons/BG.jpg);
+    /* background-image: linear-gradient(to right bottom, red, blue), url(../img/icons/BG.jpg) ; */
                     
      background-repeat: no-repeat;
     background-position: center;
