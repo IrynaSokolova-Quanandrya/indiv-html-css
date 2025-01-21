@@ -1,0 +1,200 @@
+:root{
+    --secondary-color: #95E1D3;
+    --main-color: #B6B6B6;
+    --title-color: #333;
+    --akcent-color: #F38181;
+}
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+ul,h1,h2,h3,p{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.nav-list{
+    display: flex;
+    gap: 55px;
+}
+
+.nav-link{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav-link:hover, .nav-link:focus{
+    color: var(--akcent-color);
+}
+
+.current{
+    color: var(--akcent-color);
+    border-bottom: solid 3px var(--akcent-color);
+}
+
+.we-work-with{
+    padding-top: 68px;
+}
+
+.section-title{
+ font-size: 30px;
+ font-weight: 700;
+ line-height: normal;
+ font-variant: all-small-caps;
+ text-align: center;
+ margin-bottom: 85px;
+}
+
+.section-title::after{
+    content: '';
+    display: block;
+    background: #F38181;
+    width: 50px;
+    height: 3px;
+    flex-shrink: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+.we-work-with .section-text{
+    margin-bottom: 20px;
+}
+
+.we-work-with .section-title{
+    margin-bottom: 109px;
+}
+
+.section-text{
+ color: var(--title-color);
+ font-family: "Kaushan Script";
+ font-size: 24px;
+ line-height: normal;
+ text-align: center;
+ margin-bottom: 17px;
+}
+
+.serv-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.serv-item{
+    flex-basis: calc((100% - 140px) / 3);
+}
+
+.who-we-are{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.serv-title, .team-title{
+    color: var(--title-color);
+font-size: 14px;
+line-height: normal;
+font-variant: small-caps;
+text-align: center;
+}
+
+.main-team-text{
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.team-text{
+    display: flex;
+    justify-content: space-around;
+}
+
+.team-img{
+    box-shadow: 10px 10px 15px 0px gray;
+}
+
+.serv-text{
+    width: 275px;
+}
+
+.serv-text, .team-text, .main-team-text{
+color: var(--main-color);
+font-family: Roboto;
+font-size: 15px;
+line-height: normal;
+}
+
+.team-list{
+    display: flex;
+    gap: 30px;
+}
+
+.copy-write{
+    font-size: 14px;
+}
+
+.button{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-variant: all-small-caps;
+background-color: var(--secondary-color);
+border: transparent;
+/* padding-top-: 11px;
+padding-bottom: 11px;
+padding-left: 38px;
+padding-right: 38px; */
+padding: 11px 38px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--main-color);
+    padding-top: 11px;
+}
+
+
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon-twitter {
+  width: 1.181640625em;
+}
