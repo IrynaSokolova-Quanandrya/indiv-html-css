@@ -1,21 +1,12 @@
 # indiv-html-css
 
-FONTS
+SASS
 
-1 - Підключення сторонніх шрифтів
-2 - google fonts
-3 - властивість font-family, font-size, font-style
-    - font-weight: bold|bolder|lighter|normal|100|200|300|400|500|600|700|800|900
-    - font-size: px, em, rem, %
-    - font-style: normal | italic | oblique | initial | inherit
-     
-4 - Оформлення тексту
-    - text-transform: none/capitalize/uppercase/lowercase/inherit/initial;
-    - text-indent: 20px/15%/inherit
-    -  text-decoration: none | underline | line-through | overline
-    -  text-align: left | right | center | justify
-    - text-shadow​
-
-5 - Псевдоелементи тексту
-    - ::first-letter​
-    - ::selection
+1. Що таке препроцессор SASS
+2. Live SASS Compiler;
+3. створюємо файл зрозширенням scss та запускаємо компілятор
+4. вкладеність селекторів, конкатенація
+5. паршали
+6. запускаємо компілятор
+7. імпорти - важливий порядок
+8. помилки під час компіляції
