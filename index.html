@@ -1,117 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alivio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Шапка сайту -->
-    <header class="header">
-       <div class="container">
-         <a class="logo" href=""><span>Ali</span>vio</a>
-        <!-- Навігація сайту -->
-        <nav class="nav">
-            <ul class="list">
-                <li class="item">
-                    <a class="link" href="">Why Alivio</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="">Solutions</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="">Community</a>
-                </li>
-                <li class="item">
-                    <a class="link" href="">Pricing</a>
-                </li>
-            </ul>
-       </nav>
-       <!-- Аутентифікація -->
-            <ul class="auth-list">
-                <li class="auth-item">
-                    <button class="auth-button" disabled type="button">Sign in</button>
-                </li>
-                <li class="auth-item">
-                    <button class="button" type="button">Start Trial</button>
-                </li>
-            </ul>
-       
-       </div>
-    </header>
-    <!-- Основний контент -->
-    <main>
-        <!-- Секція герой -->
-        <section class="section hero">
-            <h1 class="hero-title">Be aware, Manage well.</h1>
-            <p class="text">Everyone experiences stress in different ways.
-                Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-            <button class="button" type="button">Find Your Way</button>
-        </section>
-        <!-- Секція  How it works-->
-        <section class="section">
-            <h2 class="section-title">How it works</h2>
-            <h3 class="title">Understand & Release the stress in 3 steps</h3>
-            <p class="how-it-work-text">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
-            <ul class="steps-list">
-                <li class="steps-item">
-                    <h4 class="steps-title">Personalize</h4>
-                    <p class="steps-text">Answer a quick survey about how you express yourself, what causes you stress, and what area would you like to work on. This way, we can fully personalize your journal!</p>
-                    <img class="steps-image" src="./images/how-it-works-1.jpg" alt="picture">
-                </li>
-                <li class="steps-item">
-                    <h4 class="steps-title">Write & Understand</h4>
-                    <p class="steps-text">Write, draw, reflect, understand. Alivio will guide you through the prompts and will help you manage your stress!</p>
-                    <img class="steps-image" src="./images/how-it-works-2.jpg" alt="daybook">
-                </li>
-                <li class="steps-item">
-                    <h4 class="steps-title">Alivio!</h4>
-                    <p class="steps-text">Now you are aware, and have a way to manage and overcome your own stress. What are you waiting for? Alivio today!</p>
-                    <img class="steps-image" src="./images/how-it-works-3.jpg" alt="woman">
-                </li>
-            </ul>
-        </section>
-        <!-- Секція kayla -->
-        <section class="section kayla">
-            <h2>Examples</h2>
-            <h3>Let's hear about Kayla's success story</h3>
-            <p>See how well Alivio works in a real customer’s life. </p>
-            <button type="button">Let’s get started</button>
-            <video src="https://www.youtube.com/watch?v=T78-xD8uM58" poster="./images/video-poster.jpg" controls autoplay></video>
-        </section>
-        <section class="section">
-            <h2>Our product</h2>
-            <h3>You tell us your stress, We make your diary</h3>
-            <p>Everyone experiences it, and in different ways.
-Let Alivio guide you, in a personalized journal experience, to overcome your stress.</p>
-            <button type="button" class="button">Find Your Way</button>
-            <img src="./images/our-product.jpg" alt="girl">
-        </section>
-    </main>
-    <!-- Футер сайту -->
-    <footer>
-       <div class="container">
-         <a href="">Alivio</a>
-            <ul>
-                <li>
-                    <a href="">Why Alivio</a>
-                </li>
-                <li>
-                    <a href="">Solutions</a>
-                </li>
-                <li>
-                    <a href="">Community</a>
-                </li>
-                <li>
-                    <a href="">Pricing</a>
-                </li>
-            </ul> 
-       </div>
-    </footer>
-    <!-- <script type="module" src="./index.js"></script> -->
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bootstrap</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<!-- <div class="container">
+			<h1>Bootstrap tutorial</h1>
+			<p>Bootstrap tutorial</p>
+			<div class="row">
+				<div
+					class="col-sx-12 col-sm-9 col-md-4 col-lg-6"
+					style="background-color: rgb(255, 196, 236)"
+				>
+					<div class="row">
+						<div
+							class="col-sx-12 col-sm-3 col-md-8 col-lg-6"
+							style="background-color: rgb(63, 63, 126)"
+						>
+							Col-2
+						</div>
+						<div
+							class="col-sx-12 col-sm-3 col-md-8 col-lg-6"
+							style="background-color: rgb(204, 126, 70)"
+						>
+							Col-2
+						</div>
+					</div>
+				</div>
+				<div
+					class="col-sx-12 col-sm-3 col-md-8 col-lg-6"
+					style="background-color: rgb(198, 196, 255)"
+				>
+					Col-2
+				</div>
+			</div> -->
+
+		<!-- header -->
+		<!-- <div class="navbar navbar-default bg-body-tertiary">
+			<div class="container">
+				<div class="navbar-header">
+					<a href="#" class="navbar-brand">Logo</a>
+				</div>
+
+				<div class="justify-content-center">
+					<ul class="justify-content-center nav mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" href="#">Головна</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Про нас</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Контакти</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div> -->
+		<nav class="site-nav navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container">
+				<a class="navbar-brand site-nav" href="#">Navbar</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Link</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								Dropdown
+							</a>
+							<ul class="dropdown-menu">
+								<li><a class="dropdown-item" href="#">Action</a></li>
+								<li><a class="dropdown-item" href="#">Another action</a></li>
+								<li><hr class="dropdown-divider" /></li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link disabled" aria-disabled="true">Disabled</a>
+						</li>
+					</ul>
+					<form class="d-flex" role="search">
+						<input
+							class="form-control me-2"
+							type="search"
+							placeholder="Search"
+							aria-label="Search"
+						/>
+						<button class="btn btn-outline-success" type="submit">
+							Search
+						</button>
+					</form>
+				</div>
+			</div>
+		</nav>
+	</body>
 </html>
